@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol , li{
+    list-style: none;
+}
+
+body{
+    padding: 64px;
+    background-image: url(../img/leon.png);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    border-bottom: 6px solid #E4CAFF;
+    padding-bottom: 32px;
+}
+
+header img{
+   height: 100px;
+}
+
+header input{
+    height: 65px;
+    flex-grow: 1;
+    background-color: #613990;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 12px;
+    
+}
+
+header input::placeholder{
+    color: beige;
+}
+
+.button{
+    height: 48px;
+    min-width: 100px;
+    border-radius: 12px;
+    background-color: #613990;
+    color: aliceblue;
+    padding: 0 8px;
+    border: none;
+    cursor: pointer;
+}
